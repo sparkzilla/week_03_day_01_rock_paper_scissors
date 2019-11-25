@@ -1,7 +1,21 @@
 body {
 background-color: #6E7E85;
+ width: 960px;
+ margin: 0 auto;
 }
 
 h1{
   color:white;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  color:white;
+  text-align: center;
+}
+
+.credits {
+  font-size: 20px;
+  font-style: italic;
 }
