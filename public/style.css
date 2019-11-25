@@ -15,6 +15,12 @@ p {
   text-align: center;
 }
 
+
+a {
+  color: bisque;
+  text-decoration:none;
+}
+
 .credits {
   font-size: 20px;
   font-style: italic;
