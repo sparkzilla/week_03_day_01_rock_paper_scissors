@@ -13,13 +13,13 @@ class Game
       case act1 == "paper"
         when act2 == "scissors"
          return "Scissors beats paper"
-        when act = "rock"
+       when act2 = "rock"
         return "Paper beats scissors"
       end
       case act1 == "scissors"
       when act2 == "paper"
          return "Scissors beats paper"
-        when act = "rock"
+       when act2 = "rock"
         return "Rock beats scissors"
       end
     end
