@@ -9,4 +9,8 @@ class TestGame < Minitest::Test
     assert_equal( "It's a draw", Game.do("rock", "rock") )
   end
 
+  def test_paper_beats_rock
+    assert_equal( "Paper beats rock", Game.do("rock", "paper") )
+  end
+
 end
